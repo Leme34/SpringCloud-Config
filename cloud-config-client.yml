@@ -21,7 +21,7 @@ server:
 spring:
   profiles: test      #测试环境
   application:
-    name: cloud-config-client123
+    name: cloud-config-client123456
 eureka:
   client:
     service-url:
