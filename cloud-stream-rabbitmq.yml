@@ -1,4 +1,11 @@
-﻿server:
+#分布式配置中心，必须保存为UTF-8编码
+spring:
+  profiles:
+    active:
+    - dev
+
+---
+ server:
   port: 8203
 spring:
   profiles: dev
