@@ -1,0 +1,17 @@
+﻿#分布式配置中心，必须保存为UTF-8编码
+spring:
+  profiles:
+    active:
+      - dev
+
+---
+server:
+  port: 8203
+spring:
+  profiles: dev
+  application:
+    name: cloud-stream-rabbitmq
+  rabbitmq:
+    host: 192.168.11.101
+    username: admin
+    password: 123
